@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chicken_1_WalkCycle
+      name: Chicken_1_Walk
       rect:
         serializedVersion: 2
         x: 1
@@ -145,7 +145,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chicken_1_Egg
+      name: Chicken_1_Sit01
       rect:
         serializedVersion: 2
         x: 1
@@ -166,7 +166,7 @@ TextureImporter:
         width: 13
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chicken_1_EggCycle
+      name: Chicken_1_Sit02
       rect:
         serializedVersion: 2
         x: 1
@@ -187,7 +187,7 @@ TextureImporter:
         width: 13
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chicken_1_Duck
+      name: Chicken_1_Matrix01
       rect:
         serializedVersion: 2
         x: 0
@@ -208,7 +208,7 @@ TextureImporter:
         width: 16
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,10 +221,136 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chicken_1_DuckCycle
+      name: Chicken_1_Matrix02
       rect:
         serializedVersion: 2
         x: 0
+        y: 224
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b6082b36f1275429498e3bf8db2326
+      internalID: 989002945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Base
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b125f0656cf4934ebff46c501c03000
+      internalID: -1459741864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Base_Walk
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 288
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48403fc318e12a842b43c110fa837a3c
+      internalID: 1530658696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Base_Sit01
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 272
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da510b1f9993ff9489c6e7d83f91e096
+      internalID: -1904433253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Base_Sit02
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fadc25a2c63f884580b8929809e58d4
+      internalID: -1364237812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Base_Matrix01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6382d7fd5c25994f8d95999468e6dd1
+      internalID: 1982628702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Base_Matrix02
+      rect:
+        serializedVersion: 2
+        x: 16
         y: 224
         width: 16
         height: 9
@@ -235,8 +361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36b6082b36f1275429498e3bf8db2326
-      internalID: 989002945
+      spriteID: fdff1840552dc10488c2eed1335eacc0
+      internalID: -1425476419
       vertices: []
       indices: 
       edges: []
@@ -253,11 +379,17 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Chicken_1: -997746882
-      Chicken_1_Egg: 1885892108
-      Chicken_1_DuckCycle: 989002945
-      Chicken_1_EggCycle: -1832494615
-      Chicken_1_WalkCycle: 1195861223
-      Chicken_1_Duck: -864148185
+      Chicken_1_Sit02: -1832494615
+      Chicken_Base_Matrix02: -1425476419
+      Chicken_Base_Sit01: -1904433253
+      Chicken_Base_Walk: 1530658696
+      Chicken_1_Walk: 1195861223
+      Chicken_Base_Matrix01: 1982628702
+      Chicken_Base_Sit02: -1364237812
+      Chicken_1_Matrix01: -864148185
+      Chicken_Base: -1459741864
+      Chicken_1_Matrix02: 989002945
+      Chicken_1_Sit01: 1885892108
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
